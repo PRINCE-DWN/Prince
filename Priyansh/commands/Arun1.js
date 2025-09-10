@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
      react.includes("prince") || 
 react.includes("prince")) {
 		var msg = {
-				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆★\n\n✦prince thakur✦\n\n★★᭄✦ \n𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸  \n 😋https://www.facebook.com/share/1CJ3Vf8TYj/`",
+				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆★\n\n✦prince thakur✦\n\n★★᭄✦ \n \n 😋https://www.facebook.com/`",
 				attachment: fs.createReadStream(__dirname + `/noprefix/kk1.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
